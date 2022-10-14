@@ -2,9 +2,11 @@ import React from 'react';
 import { useRouter } from 'next/router';
 
 const User = () => {
-  const router = useRouter();
+  const {
+    query: { id },
+  } = useRouter();
 
-  return <div>User with id: {router.query.id}</div>;
+  return <div>User with id: {id}</div>;
 };
 
 export default User;
