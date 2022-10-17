@@ -10,6 +10,7 @@
     "baseUrl": ".",
     "paths": {
       "@database": ["database/db.ts"],
+      "@components/*": ["components/*"],
     },
     "skipLibCheck": true,
     "strict": true,
