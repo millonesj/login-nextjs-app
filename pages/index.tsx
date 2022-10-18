@@ -16,7 +16,7 @@ const HomePage = () => {
     <div>
       <h1>User List</h1>
       <div>
-        {userList.map(user => <div>{user.name}</div>)}
+        {userList.map(user => <div key={user.id}>{user.name}</div>)}
       </div>
     </div>
   );
