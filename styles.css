@@ -1,4 +1,1 @@
-body {
-  background-color: rgb(232, 226, 207);
-  margin: 0;
-}
+@import '~antd/dist/antd.css';
