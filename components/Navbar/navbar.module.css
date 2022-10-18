@@ -1,0 +1,19 @@
+.navbar{
+  display: flex;
+  align-content: center;
+  background-color: rgb(22, 133, 230);
+}
+
+.navbar > menu > a{
+  color: white;
+  margin: 0 5px;
+}
+
+.navbar > menu > a:visited{
+  color: #FFF;
+}
+
+.navbar > menu > a:hover {
+  color: rgb(113, 250, 254);
+  font-weight: bold;
+}
